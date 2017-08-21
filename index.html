@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>手风琴效果</title>
+		<script src="jquery-1.11.3.min.js"></script>
+		<script src="woco.accordion.js"></script>
+		<link href="woco-accordion.css" rel="stylesheet">
+		<style>
+			body {
+				font-family: sans-serif;
+			}
+			.accordion {
+				max-width: 300px;
+				margin: 5px auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="accordion">
+			<h1>菜单一</h1>
+			<div class="content">
+				<p>text1</p>
+			</div>
+			<h1>菜单二</h1>
+			<div class="content">
+				<p>text1</p>
+				<p>text2</p>
+			</div>
+			<h1>菜单三</h1>
+			<div class="content">
+				<p>text1</p>
+				<p>text2</p>
+				<p>text3</p>
+			</div>
+			<h1>菜单四</h1>
+			<div class="content">
+				<p>text1</p>
+				<p>text2</p>
+				<p>text3</p>
+				<p>text4</p>
+			</div>
+		</div>
+		<script>
+			$(".accordion").accordion();
+		</script>
+	</body>
+</html>
